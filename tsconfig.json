@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "alwaysStrict": true,
+        "lib": [
+            "ESNext",
+            "ESNext.Array",
+            "ESNext.AsyncIterable",
+            "ESNext.Intl",
+            "ESNext.Symbol"
+        ],
+        "sourceMap": false
+    }
+}
