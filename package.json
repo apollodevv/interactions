@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "types": "typings/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,9 @@
     "@typescript-eslint/parser": "^4.25.0",
     "discord-api-types": "^0.18.1",
     "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
     "typescript": "^4.3.2"
   }
 }
